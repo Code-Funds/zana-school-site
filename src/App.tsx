@@ -9,6 +9,7 @@ import { Academics } from '@/pages/Academics';
 import { Admissions } from '@/pages/Admissions';
 import { StudentLife } from '@/pages/StudentLife';
 import { Alumni } from '@/pages/Alumni';
+import { Gallery } from '@/pages/Gallery';
 import { News } from '@/pages/News';
 import { Contact } from '@/pages/Contact';
 import { AdminLogin } from '@/pages/admin/AdminLogin';
@@ -36,6 +37,7 @@ function App() {
                     <Route path="/admissions" element={<Admissions />} />
                     <Route path="/student-life" element={<StudentLife />} />
                     <Route path="/alumni" element={<Alumni />} />
+                    <Route path="/gallery" element={<Gallery />} />
                     <Route path="/news" element={<News />} />
                     <Route path="/contact" element={<Contact />} />
                   </Routes>
